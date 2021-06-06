@@ -27,7 +27,6 @@ header a {
 
 header button {
   border: none;
-  visibility : hidden;
   background: #b71c1c;
   color: #fff;
   font-size: 1.2em;
