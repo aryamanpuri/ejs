@@ -1,13 +1,14 @@
 # ejs
 ECMASCRIPT TO COMMON JAVASCRIPT 
-#Input :- 
+
+# Input :- 
 1. import react from "fs";
 2. import {FormGroup,
            FormControl,
            InputGroup, 
            Glyphicon
                   }    from "react-bootstrap";
-#Output :- 
+# Output :- 
 
 1. const react = require("fs").default;
 2. const { FormGroup,
@@ -16,14 +17,15 @@ ECMASCRIPT TO COMMON JAVASCRIPT
            Glyphicon 
             } =  require("react-bootstrap");   
 
-#Input :-
+# Input :-
 
 1. import { resolve as resolvePath } from "path";
 
-#Output :- 
+# Output :- 
 
 1. const { resolve: resolvePath } = require("path");
-#Input :- 
+
+# Input :- 
  1. export function Fibonacci() {
     const number = parseInt(prompt('Enter the number of terms: '));
 let n1 = 0, n2 = 1, nextTerm;
@@ -37,7 +39,7 @@ for (let i = 1; i <= number; i++) {
     n2 = nextTerm;
 }
 
-#Output :- 
+# Output :- 
 
 1. function Fibonacci() {
     const number = parseInt(prompt('Enter the number of terms: '));
@@ -56,13 +58,13 @@ module.exports = {
   Fibonacci
 }
 
-#Input :- 
+# Input :- 
 
 1. export function Square(x){
     Return x*x;
 }
 
-#Output :- 
+# Output :- 
 
 
 1.function Square(x) {
